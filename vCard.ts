@@ -54,5 +54,5 @@ export class vCard {
 
   public getFormattedString(options? : vCardFormattingOptions): string {
     return vCardFormatter.getFormattedString(this, options);
-  };
+  }
 }
